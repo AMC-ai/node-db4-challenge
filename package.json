@@ -1,0 +1,22 @@
+{
+  "name": "node-db4-challenge",
+  "version": "1.0.0",
+  "description": "reciepies",
+  "main": "index.js",
+  "repository": "https://github.com/AMC-ai/node-db4-challenge.git",
+  "author": "amc-ai",
+  "license": "MIT",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "knex": "^0.20.4",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
