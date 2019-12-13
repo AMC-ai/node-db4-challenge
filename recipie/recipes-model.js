@@ -15,14 +15,17 @@ function getRecipes() {
 
 }
 
-
+// select name, info
+// from ingredients
+// join steps on recipes_id = ingredients.recipes_id;
 
 function getShoppingList(recipe_id) {
     return db
 
 }
 
-
+// select info
+// from steps
 
 function getInstructions(recipe_id) {
     return db
