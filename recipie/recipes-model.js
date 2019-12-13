@@ -8,15 +8,21 @@ module.exports = {
     getInstructions
 };
 
+// select * from recipes 
+
 function getRecipes() {
     return db
 
 }
 
+
+
 function getShoppingList(recipe_id) {
     return db
 
 }
+
+
 
 function getInstructions(recipe_id) {
     return db
